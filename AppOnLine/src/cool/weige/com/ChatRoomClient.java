@@ -17,9 +17,10 @@ public class ChatRoomClient {
 
     //test master commit
 
-    //push
+    //push1
+    //push2
     private Selector selector = null;
-    static final int port = 9090;
+    static final int port = 99991;
     private Charset charset = Charset.forName("UTF-8");
     private SocketChannel sc = null;
     private String name = "";
