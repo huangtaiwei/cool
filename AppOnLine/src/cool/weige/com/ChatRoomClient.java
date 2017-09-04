@@ -20,7 +20,7 @@ public class ChatRoomClient {
     //push
     private Selector selector = null;
     static final int port = 9090;
-    private Charset charset = Charset.forName("UTF-8");
+    private Charset charset = Charset.forName("uTF-8");
     private SocketChannel sc = null;
     private String name = "";
     private static String USER_EXIST = "system message: user exist, please change a name";
