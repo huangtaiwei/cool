@@ -19,6 +19,7 @@ public class ChatRoomClient {
 
     //push1
     //push2
+    //push Test
     private Selector selector = null;
     static final int port = 99991;
     private Charset charset = Charset.forName("UTF-8");
