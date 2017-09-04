@@ -17,7 +17,7 @@ public class ChatRoomClient {
 
     //test master commit
 
-    //push1
+    //push
     private Selector selector = null;
     static final int port = 9999;
     private Charset charset = Charset.forName("UTF-8");
