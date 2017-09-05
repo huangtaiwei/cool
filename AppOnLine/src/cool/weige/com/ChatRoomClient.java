@@ -32,7 +32,7 @@ public class ChatRoomClient {
     {
         selector = Selector.open();//test
         //连接远程主机的IP和端口
-        sc = SocketChannel.open(new InetSocketAddress("127.0.0.1",port));
+        sc = SocketChannel.open(new InetSocketAddress("127.0.0.1",port));//master
         sc.configureBlocking(false);
         sc.register(selector, SelectionKey.OP_READ);
         //开辟一个新线程来读取从服务器端的数据
